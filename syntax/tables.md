@@ -1,31 +1,30 @@
-# Tableaux
+# Tabs
 
 
-Les tableaux ne font pas partie du coeur de la spec Markdown, mais ils font partie de GFM (GitHub Flavored Markdown) et Markdown Here les supporte.
+The tables are not part of the heart of the Markdown spec, but they are part of GFM (GitHub Flavored Markdown) and Markdown Here supports them.
 
-Voici un exemple de tableau avec le résultat dessous :
+Here is an example of a table with the result below:
 
-    | Les tableaux  | Sont            | Cools |
-    | ------------- |:---------------:| -----:|
-    | col 3 est     | alignée à droite| $1600 |
-    | col 2 est     | centrée         |   $12 |
-    | les zèbres    | sont swag       |    $1 |
+    | Tables | Are | Cools |
+    | ------------- |: ---------------: | -----: |
+    | col 3 is | aligned to the right | $ 1600 |
+    | col 2 is | centered | $ 12 |
+    | the zebras | are swag | $ 1 |
 
 
-| Les tableaux  | Sont            | Cools |
-| ------------- |:---------------:| -----:|
-| col 3 est     | alignée à droite| $1600 |
-| col 2 est     | centrée         |   $12 |
-| les zèbres    | sont swag       |    $1 |
+| Tables | Are | Cools |
+| ------------- |: ---------------: | -----: |
+| col 3 is | aligned to the right | $ 1600 |
+| col 2 is | centered | $ 12 |
+| the zebras | are swag | $ 1 |
 
-Les deux points peuvent être utilisés pour aligner les colonnes
+Both points can be used to align columns
 
-Les traits (|) sont optionnels et vous n'avez pas besoin de faire que le Markdown raw s'alligne parfaitement. Vous pouvez aussi utiliser de l'inline Markdown.
+The traits (|) are optional and you do not need to make the Markdown raw fit perfectly. You can also use inline Markdown.
 
-Exemple:
+Example:
 
-    Markdown | Assez | Moche
+    Markdown | Enough | Ugly
     --- | --- | ---
-    *Apparait* | `toujours` | **bien**
+    * Appears * | `always` | **good**
     1 | 2 | 3
-

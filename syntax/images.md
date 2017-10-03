@@ -1,35 +1,35 @@
 # Images
 
-```markdown
-# Inline
-![Alternative text](/path/to/img.jpg "Optional title")
+`` `Markdown
+# En ligne
+! [Texte alternatif] (/path/to/img.jpg "Titre facultatif")
 
-# Reference
-![Alternative text][id]
-[id]: url/to/image  "Optional title"
-```
-Comme vous avez dû le remarquer, les images en Markdown sont très semblables aux liens.  
-La différence est la suivante :
-* les crochets doivent être précédés par un point d'exclamation ;
-* ils peuvent contenir un texte alternatif, qui s'affiche quand l'image ne peut être chargée.
+# Référence
+[Texte alternatif] [id]
+[id]: url/to/image "Titre facultatif"
+`` `
+Comme vous l'avez peut-être remarqué, les images Markdown sont très similaires aux liens.
+La différence est:
+* les parenthèses doivent être précédées d'un point d'exclamation;
+* ils peuvent contenir du texte alternatif, qui s'affiche lorsque l'image ne peut pas être chargée.
 
 ---
 
-Here's a quiz about markdown images.
+Voici un quiz sur les images de markdown.
 
-Select the valid images:
-- [ ] `[Google logo](https://www.google.ru/logo.png)`
-- [x] `![](https://www.google.ru/logo.png)`
+Sélectionnez les images valides:
+- [] `[Google logo] (https://www.google.ru/logo.png)`
+- [x] `! [] (https://www.google.ru/logo.png) `
 
-> Images must be prefixed with an exclamation mark.
-The alternative text and a title are optional.
+> Les images doivent être préfixées avec un point d'exclamation.
+Le texte alternatif et un titre sont facultatifs.
 
-What is true about the following line: ```![Funny cat](http://cats.ru/funny.png "Share this")```
-- [x] if the url is 404, "Funny cat" will be displayed
-- [ ] exclamation mark can be omitted in this case
-- [ ] if the url is 404, "Share this" will be displayed
-- [x] on mouse over the image "Share this" will be displayed
+Ce qui est vrai sur la ligne suivante: `` `Funny Dog (http://cats.ru/funny.png)" Share this ")` ``
+- [x] si l'URL est 404, "Funny cat" sera affiché
+- [] un point d'exclamation peut être omis dans ce cas
+- [] si l'url est 404, "Partager ceci" sera affiché
+- [x] sur la souris sur l'image
 
-> Similarly to links, images can have 3 parts: the alternative text, the url and a title. An exclamation mark is nesessary.
+> De manière similaire aux liens, les images peuvent comporter 3 parties: le texte alternatif, l'URL et un titre. Un point d'exclamation n'est pas nécessaire.
 
 ---

@@ -1,67 +1,65 @@
-# Titles
+# Titres
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+Lorsque nous avons commencé à écrire un document de réduction, nous devons ajouter un titre et des sous-titres.
 
-Markdown supports two styles of headers, Setext and atx.
+Markdown prend en charge deux styles d'en-têtes, Setext et atx.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Les en-têtes de type Setext sont "soulignés" en utilisant des signes égaux (pour les en-têtes de premier niveau) et les tirets (pour les en-têtes de second niveau). Par exemple:
 
-```
-This is an H1
+`` `
+C'est un H1
 =============
 
-This is an H2
+C'est un H2
 -------------
-```
+`` `
 
-Any number of underlining =’s or -’s will work.
+Tout le nombre de sous-lignes = 's or-s fonctionnera.
 
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Les en-têtes style Atx utilisent 1-6 caractères hash au début de la ligne, correspondant aux niveaux d'en-tête 1-6. Par exemple:
 
-```
-# This is an H1
+`` `
+# C'est un H1
 
-## This is an H2
+## Ceci est un H2
 
-###### This is an H6
-```
+###### Ceci est un H6
+`` `
 
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+En option, vous pouvez "fermer" les en-têtes de type atx. Ceci est purement cosmétique - vous pouvez utiliser cela si vous le pensez mieux. Les hachages de fermeture n'ont même pas besoin de correspondre au nombre de hachages utilisés pour ouvrir l'en-tête. (Le nombre de hachages d'ouverture détermine le niveau d'en-tête).
 
-```
-# This is an H1 #
+`` `
+# C'est un H1 #
 
-## This is an H2 ##
+## Ceci est un H2 ##
 
-### This is an H3 ######
-```
+### Ceci est un H3 ######
+`` `
 
 
 ---
 
-Here's a quiz about markdown titles.
+Voici un quiz sur les titres de réduction.
 
-Select the valid headers:
+Sélectionnez les en-têtes valides:
 - [x] `# hello`
-- [ ] `#hello`
+- [] `# hello`
 
-> Headers need space between the hash characters and the text.
+> Les en-têtes ont besoin d'espace entre les caractères hash et le texte.
 
-Select the valid headers:
-- [ ]  
-```
-test
+Sélectionnez les en-têtes valides:
+- []
+`` `
+tester
 ########
-```
-- [x]   
-```
-test
+`` `
+- [X]
+`` `
+tester
 =======
-```
+`` `
 
-> Only '=' and '-' are accepted for underlining an header.
+> Seul '=' et '-' sont acceptés pour souligner un en-tête.
 
 ---
-
-
